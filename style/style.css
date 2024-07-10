@@ -1,13 +1,77 @@
-.header {}
-
-.header-btn {}
-.header-logo-link {}
+.header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* background-image: url("https://wtzlublin.pl/wp-content/uploads/2020/09/zdjecie-g%C5%82%C3%B3wne.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header::before {
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('https://wtzlublin.pl/wp-content/uploads/2020/09/zdjecie-g%C5%82%C3%B3wne.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    opacity: .7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.header-container {
+}
+.header-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, .6);
+}
+.logo-header {
+    width: 150px;
+    /* height: 150px; */
+}
+.header-logo-link {
+    height: auto;
+    font-size: 0;
+}
 
 .nav-header {}
-.nav-header-link {}
+.nav-header-link {
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-inline: 10px;
+    color: black;
+    border: 0.5px solid black;
+    font-size: 24px;
+    transition: .5s all;
+}
+.nav-header-link:hover {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, .8);
+}
 
-.header-banner {}
-.header-banner-txt
+.check-this {
+    font-size: 0;
+}
+
+.header-banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-inline: 30px;
+}
+.header-banner-title {
+    /* width: 60%; */
+    font-size: 100px;
+}
+.header-banner-txt {
+    font-size: 50px;
+}
 
 
 
