@@ -11,9 +11,9 @@
 }
 .header::before {
     content: "";
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('https://wtzlublin.pl/wp-content/uploads/2020/09/zdjecie-g%C5%82%C3%B3wne.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/banner2.jpeg);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     opacity: .7;
     position: absolute;
     width: 100%;
